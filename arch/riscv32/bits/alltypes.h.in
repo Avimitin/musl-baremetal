@@ -2,6 +2,9 @@
 #define _Int64 long long
 #define _Reg int
 
+#define __BYTE_ORDER 1234
+#define __LONG_MAX 0x7fffffffL
+
 TYPEDEF __builtin_va_list va_list;
 TYPEDEF __builtin_va_list __isoc_va_list;
 
